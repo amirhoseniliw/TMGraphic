@@ -1,6 +1,7 @@
 
-<link rel="stylesheet" href="<?= asset('public/css/style.css') ?>">
-    <link rel="stylesheet" href="<?= asset('public/css/bootstrap.rtl.min.css') ?>">
+    <link rel="stylesheet" href="<?='public/css/bootstrap.rtl.min.css' ?>">
+<link rel="stylesheet" href="<?= 'public/css/style.css' ?>">
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <header class="">
 

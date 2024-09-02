@@ -129,8 +129,7 @@
                             </li>
                             <li class="list-unstyled">
                                 <form class="input-group d-sm-flex d-none mt-4">
-                                    <input type="text" class="form-control border-0 input_group_box"
-                                        placeholder="Enter Your Email Address">
+                                   
                                     <button
                                         class="input-group-text border-0 text-light fs-6 px-4 py-3 rounded-end-3 bg_color_basic d-flex flex-row justify-content-center align-items-center column-gap-lg-2 column-gap-1">
                                         <img src="<?= asset('public/img/icon/EnvelopeSimple.png')?>" width="20" alt="error">
@@ -138,8 +137,7 @@
                                     </button>
                                 </form>
                                 <form class="d-sm-none d-flex flex-column mt-4 row-gap-4 w-100">
-                                    <input type="text" class="form-control py-2 px-3 rounded-pill"
-                                        placeholder="Enter Your Email Address">
+                                   
                                     <button
                                         class="btn py-2 bg_color_basic text-light fs-6 rounded-pill d-flex flex-row justify-content-center align-items-center column-gap-lg-2 column-gap-1">
                                         <img src="<?=asset('public/img/icon/EnvelopeSimple.png')?>" width="20" alt="">
@@ -166,13 +164,13 @@
         </a>
     </div>
 
-    <script src="<?= asset('public/js/bootstrap.bundle.min.js')?>"></script>
+    <script src="<?= 'public/js/bootstrap.bundle.min.js'?>"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-    <script src="<?= asset('public/js/app-fs.js')?>"></script>
+    <script src="<?='public/js/app-fs.js'?>"></script>
 
     <!-- <script src="js/app.js"></script> -->
     <!-- <script src="js/anime.js"></script> -->
-    <script src="<?=asset('public/js/bannerPaage-fs.js')?>"></script>
+    <script src="<?='public/js/bannerPaage-fs.js'?>"></script>

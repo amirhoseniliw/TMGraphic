@@ -160,7 +160,7 @@
             </div>
             <hr class="container-lg container-fluid mx-auto text-light-50 mt-5" />
             <div class="container-lg container-fluid mx-auto d-flex flex-row column-gap-2 text-light-50">
-                <?xml version="1.0" encoding="utf-8"?><svg version="1.1" width="20" id="Layer_1"
+                <xml version="1.0" encoding="utf-8"?><svg version="1.1" width="20" id="Layer_1"
                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                     viewBox="0 0 122.88 122.72" style="enable-background:new 0 0 122.88 122.72" xml:space="preserve">
                     <style type="text/css">
@@ -182,5 +182,5 @@
     <script>
         AOS.init();
     </script>
-    <script src="<?= asset('public/js/app.js')?>"></script>
-    <script src="<?= asset('public/js/scrollAnime.js')?>"></script>
+    <script src="<?='public/js/app.js'?>"></script>
+    <script src="<?='public/js/scrollAnime.js'?>"></script>
